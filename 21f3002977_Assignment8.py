@@ -14,5 +14,5 @@ if st.button("Find Biggest"):
   biggest_number = find_biggest(num1, num2, num3)
   st.write(f"The biggest number is: {biggest_number}")
 
-  st.write("**Code prepared by 21f3002977_DaniyalIqbal**")
+"**Code prepared by 21f3002977_DaniyalIqbal**"
 
