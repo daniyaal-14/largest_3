@@ -1,16 +1,16 @@
 import streamlit as st
-def find_max(num1, num2, num3):
-    return max(num1, num2, num3)
+def largest(n1, n2, n3):
+    return max(n1, n2, n3)
 def main():
-    st.title("Maximum Number Finder")
+    st.title("Largest Of 3")
 
-    num1 = st.number_input("Enter the first number:", step=1)
-    num2 = st.number_input("Enter the second number:", step=1)
-    num3 = st.number_input("Enter the third number:", step=1)
+    n1 = st.number_input("Enter your 1st number:", step=1)
+    n2 = st.number_input("Enter the 2nd number:", step=1)
+    n3 = st.number_input("Enter the 3rd number:", step=1)
 
-    if st.button("Find Maximum"):
-        maximum = find_max(num1, num2, num3)
-        st.success(f"The maximum number is: {maximum}")
+    if st.button("Get Largest"):
+        maximum = find_max(n1, n2, n3)
+        st.success(f"The Biggest number is: {maximum}")
 
 if __name__ == "__main__":
     main()
