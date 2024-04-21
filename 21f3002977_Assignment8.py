@@ -9,7 +9,7 @@ def main():
     n3 = st.number_input("Enter the 3rd number:", step=1)
 
     if st.button("Get Largest"):
-        maximum = find_max(n1, n2, n3)
+        maximum = largest(n1, n2, n3)
         st.success(f"The Biggest number is: {maximum}")
 
 if __name__ == "__main__":
