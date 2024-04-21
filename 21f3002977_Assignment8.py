@@ -3,7 +3,7 @@ def largest(n1, n2, n3):
     return max(n1, n2, n3)
 def main():
     st.title("Largest Of 3 Numbers")
-    st.head("21F3002977_DaniyalIqbal")
+    st.header("21F3002977_DaniyalIqbal")
 
     n1 = st.number_input("Enter your 1st number:", step=1)
     n2 = st.number_input("Enter the 2nd number:", step=1)
