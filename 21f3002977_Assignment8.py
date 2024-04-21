@@ -1,18 +1,18 @@
 import streamlit as st
 
-def find_biggest(num1, num2, num3):
+def largest(n1, n2, n3):
   """Finds the biggest number among three."""
-  return max(num1, num2, num3)
+  return max(n1, n2, n3)
 
-st.title("Find the Biggest Number")
+st.title("Largest of 3 Number")
 
-num1 = st.number_input("Enter the first number:", key="num1")
-num2 = st.number_input("Enter the second number:", key="num2")
-num3 = st.number_input("Enter the third number:", key="num3")
+n1 = st.number_input("Enter the first number:", key="n1")
+n2 = st.number_input("Enter the second number:", key="n2")
+n3 = st.number_input("Enter the third number:", key="n3")
 
 if st.button("Find Biggest"):
-  biggest_number = find_biggest(num1, num2, num3)
-  st.write(f"The biggest number is: {biggest_number}")
+  biggest_number = largest(n1, n2, n3)
+  st.write(f"The biggest number among provided 3 is: {biggest_number}")
 
 "**Code prepared by 21f3002977_DaniyalIqbal**"
 
