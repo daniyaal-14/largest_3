@@ -1,4 +1,4 @@
-import streamlit as st
+opimport streamlit as st
 
 def largest(n1, n2, n3):
   """Finds the biggest number among three."""
@@ -12,7 +12,7 @@ n3 = st.number_input("Enter the third number:", key="n3")
 
 if st.button("Find Biggest"):
   biggest_number = largest(n1, n2, n3)
-  st.write(f"The biggest number among provided 3 is: {biggest_number}")
+  st.header(f"The biggest number among provided 3 is: {biggest_number}")
 
-"***Code prepared by 21f3002977_DaniyalIqbal***"
+"***Devloped by 21f3002977_DaniyalIqbal***"
 
